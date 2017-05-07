@@ -1,0 +1,24 @@
+{
+    "extension": [
+        ".jsx",
+        ".js"
+    ],
+    "exclude": [
+        "test",
+        "test{,-*}.js",
+        "**/*.test.js",
+        "**/__tests__/**",
+        "**/node_modules/**",
+        "server.js",
+        "app/main.jsx",
+        "build",
+        "coverage"
+    ],
+    "reporter": [
+        "lcov",
+        "text"
+    ],
+    "all": true,
+    "sourceMap": false,
+    "instrument": false
+}
