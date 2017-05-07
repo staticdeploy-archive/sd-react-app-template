@@ -1,7 +1,13 @@
+import React from "react";
 import ReactDOM from "react-dom";
+import {BrowserRouter} from "react-router-dom";
 
-import routes from "lib/routes";
+import Root from "./views/Root";
 
-const App = routes;
+const App = (
+    <BrowserRouter>
+        <Root />
+    </BrowserRouter>
+);
 
 ReactDOM.render(App, document.getElementById("root"));
